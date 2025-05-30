@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div><h1 class="header">Enter province below</h1></div>
+        <div class="input-and-button">
+            
+            <input id="province-input" type="text" name="province-input">
+            <button id="button">↑</button>
+        </div>
+
+        <div class="main-weather-info">
+            <div id="forecast-image"></div>
+            <p id="temp" class="temp"></p>
+            <p id="destination" class="destination"></p>
+        </div>
+
+        <div class="humidity-and-wind-speed">
+            <div class="humidity-info">
+                <div class="humidity-icon">
+                    <i class="fa-solid fa-water"></i>
+                </div>
+
+                <div class="humidity">
+                    <p id="humidity" class="percentage"></p>
+                    <p class="humidity-text">Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind-speed-info">
+                <div class="wind-speed-icon"><i class="fa-solid fa-wind"></i></div>
+                <div class="wind-speed">
+                    <p id="wind-speed" class="km-h"></p>
+                    <p class="wind-speed-text">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/361a5a6634.js" crossorigin="anonymous"></script>
+</body>
+</html>
